@@ -1,0 +1,11 @@
+@media only screen and (min-width: 480px) and (max-width: 768px){
+	/* generated in /homepages/46/d252872642/htdocs/clickandbuilds/ContentContinuum/wp-content/themes/aton/assets/custom-styles/general-custom-styles-responsive.php aton_qodef_design_responsive_styles function */
+.qodef-section.qodef-parallax-section-holder { height: auto !important;min-height: 400px;}
+
+}
+
+@media only screen and (max-width: 480px){
+	/* generated in /homepages/46/d252872642/htdocs/clickandbuilds/ContentContinuum/wp-content/themes/aton/assets/custom-styles/general-custom-styles-responsive.php aton_qodef_design_responsive_styles function */
+.qodef-section.qodef-parallax-section-holder { height: auto !important;min-height: 400px;}
+
+}

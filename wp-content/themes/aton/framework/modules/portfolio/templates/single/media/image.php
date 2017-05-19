@@ -1,0 +1,19 @@
+<div class="qodef-portfolio-single-media <?php echo esc_attr($media['predefined_size']); ?>">
+	<div class="qodef-portfolio-single-media-inner">
+	<?php if(!empty($lightbox)) : ?>
+		<a itemprop="image" title="<?php echo esc_attr($media['title']); ?>" data-rel="prettyPhoto[portfolio_single_pretty_photo]" href="<?php echo esc_url($media['image_url']); ?>">
+	<?php endif; ?>
+
+		<?php if ($gallery) { ?>
+			<span class="qodef-portfolio-gallery-text-holder">
+				<span class="qodef-portfolio-gallery-text-holder-inner"></span>
+			</span>
+		<?php } ?>
+
+		<img itemprop="image" src="<?php echo esc_url($media['image_url']); ?>" alt="<?php echo esc_attr($media['description']); ?>" />
+
+	<?php if(!empty($lightbox)) : ?>
+		</a>
+	<?php endif; ?>
+</div>
+</div>

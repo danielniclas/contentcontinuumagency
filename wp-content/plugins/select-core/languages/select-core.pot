@@ -1,0 +1,1145 @@
+# Copyright (C) 2016 Select Core
+# This file is distributed under the same license as the Select Core package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Select Core 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/select-core\n"
+"POT-Creation-Date: 2016-09-14 10:57:37+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: helpers.php:193 post-types/portfolio/shortcodes/portfolio-list.php:393
+#: post-types/slider/shortcodes/slider.php:788
+#: post-types/slider/shortcodes/slider.php:820
+#: post-types/testimonials/shortcodes/testimonials.php:198
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: import/class.wordpress-importer.php:143
+#: import/class.wordpress-importer.php:194
+#: import/class.wordpress-importer.php:198
+#: import/class.wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: import/class.wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: import/class.wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: import/class.wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: import/class.wordpress-importer.php:199
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: import/class.wordpress-importer.php:215
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: import/class.wordpress-importer.php:240
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: import/class.wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: import/class.wordpress-importer.php:267
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: import/class.wordpress-importer.php:269
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: import/class.wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: import/class.wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: import/class.wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: import/class.wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: import/class.wordpress-importer.php:374
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: import/class.wordpress-importer.php:425
+msgid "Failed to import category %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:465
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:511
+#: import/class.wordpress-importer.php:652
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:537
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:559
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: import/class.wordpress-importer.php:618
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: import/class.wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: import/class.wordpress-importer.php:790
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:856
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: import/class.wordpress-importer.php:869
+msgid "Invalid file type"
+msgstr ""
+
+#: import/class.wordpress-importer.php:913
+msgid "Remote server did not respond"
+msgstr ""
+
+#: import/class.wordpress-importer.php:919
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:926
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: import/class.wordpress-importer.php:931
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: import/class.wordpress-importer.php:937
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1038
+msgid "Import WordPress"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1045
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: import/class.wordpress-importer.php:1060
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: import/class.wordpress-importer.php:1061
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: import/parsers.php:42 import/parsers.php:78 import/parsers.php:86
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: import/parsers.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: import/parsers.php:90 import/parsers.php:95 import/parsers.php:285
+#: import/parsers.php:474
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: import/qode-import.php:41 import/qode-import.php:61
+msgid "Content imported successfully"
+msgstr ""
+
+#: import/qode-import.php:58
+msgid "An Error Occurred During Import"
+msgstr ""
+
+#: import/qode-import.php:65
+msgid "Error loading files"
+msgstr ""
+
+#: import/qode-import.php:76
+msgid "Widgets imported successfully"
+msgstr ""
+
+#: import/qode-import.php:95
+msgid "Custom sidebars imported successfully"
+msgstr ""
+
+#: import/qode-import.php:101
+msgid "Options imported successfully"
+msgstr ""
+
+#: main.php:56 main.php:57
+msgid "Select Options"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:56
+#: post-types/carousels/carousel-register.php:57
+#: post-types/carousels/shortcodes/carousel.php:38
+msgid "Select Carousel"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:58
+msgid "Carousel Items"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:59
+#: post-types/carousels/carousel-register.php:62
+msgid "Add New Carousel Item"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:60
+msgid "Carousel Item"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:61
+msgid "New Carousel Item"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:63
+msgid "Edit Carousel Item"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:83
+#: post-types/carousels/carousel-register.php:93
+msgid "Carousels"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:84
+msgid "Carousel"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:85
+msgid "Search Carousels"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:86
+msgid "All Carousels"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:87
+msgid "Parent Carousel"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:88
+msgid "Parent Carousel:"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:89
+msgid "Edit Carousel"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:90
+msgid "Update Carousel"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:91
+msgid "Add New Carousel"
+msgstr ""
+
+#: post-types/carousels/carousel-register.php:92
+msgid "New Carousel Name"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:46
+msgid "Carousel Slider"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:54
+#: post-types/portfolio/shortcodes/portfolio-list.php:155
+#: post-types/portfolio/shortcodes/portfolio-slider.php:88
+msgid "Order By"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:58
+#: post-types/portfolio/shortcodes/portfolio-list.php:159
+#: post-types/portfolio/shortcodes/portfolio-list.php:838
+#: post-types/portfolio/shortcodes/portfolio-list.php:867
+#: post-types/portfolio/shortcodes/portfolio-slider.php:93
+#: post-types/portfolio/shortcodes/portfolio-slider.php:224
+#: post-types/portfolio/shortcodes/portfolio-slider.php:253
+msgid "Title"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:59
+#: post-types/portfolio/shortcodes/portfolio-list.php:160
+#: post-types/portfolio/shortcodes/portfolio-slider.php:94
+msgid "Date"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:65
+#: post-types/portfolio/shortcodes/portfolio-list.php:169
+#: post-types/portfolio/shortcodes/portfolio-slider.php:101
+msgid "Order"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:69
+#: post-types/portfolio/shortcodes/portfolio-list.php:172
+#: post-types/portfolio/shortcodes/portfolio-slider.php:105
+msgid "ASC"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:70
+#: post-types/portfolio/shortcodes/portfolio-list.php:173
+#: post-types/portfolio/shortcodes/portfolio-slider.php:106
+msgid "DESC"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:76
+msgid "Number of items showing"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:79
+#: post-types/portfolio/shortcodes/portfolio-slider.php:126
+msgid "3"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:80
+#: post-types/portfolio/shortcodes/portfolio-slider.php:127
+msgid "4"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:81
+#: post-types/portfolio/shortcodes/portfolio-slider.php:128
+msgid "5"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:82
+#: post-types/portfolio/shortcodes/portfolio-slider.php:129
+msgid "6"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:90
+#: post-types/testimonials/shortcodes/testimonials.php:131
+msgid "Autoplay Timeout"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:93
+#: post-types/testimonials/shortcodes/testimonials.php:134
+msgid "Disabled"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:94
+#: post-types/testimonials/shortcodes/testimonials.php:135
+msgid "3s"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:95
+#: post-types/testimonials/shortcodes/testimonials.php:136
+msgid "4s"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:96
+#: post-types/testimonials/shortcodes/testimonials.php:137
+msgid "5s"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:104
+msgid "Image Animation"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:107
+msgid "Image Change"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:108
+msgid "Image Zoom"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:112
+msgid "Note: Only on \"Image Change\" zoom image will be used"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:116
+msgid "Show navigation?"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:119
+#: post-types/portfolio/shortcodes/portfolio-list.php:130
+#: post-types/portfolio/shortcodes/portfolio-list.php:250
+#: post-types/slider/tax-custom-fields.php:32
+#: post-types/slider/tax-custom-fields.php:43
+#: post-types/slider/tax-custom-fields.php:55
+#: post-types/slider/tax-custom-fields.php:67
+#: post-types/slider/tax-custom-fields.php:78
+#: post-types/slider/tax-custom-fields.php:89
+#: post-types/slider/tax-custom-fields.php:131
+#: post-types/slider/tax-custom-fields.php:142
+#: post-types/slider/tax-custom-fields.php:153
+#: post-types/testimonials/shortcodes/testimonials.php:98
+#: post-types/testimonials/shortcodes/testimonials.php:110
+#: post-types/testimonials/shortcodes/testimonials.php:122
+msgid "Yes"
+msgstr ""
+
+#: post-types/carousels/shortcodes/carousel.php:120
+#: post-types/portfolio/shortcodes/portfolio-list.php:131
+#: post-types/portfolio/shortcodes/portfolio-list.php:249
+#: post-types/slider/tax-custom-fields.php:31
+#: post-types/slider/tax-custom-fields.php:42
+#: post-types/slider/tax-custom-fields.php:54
+#: post-types/slider/tax-custom-fields.php:66
+#: post-types/slider/tax-custom-fields.php:79
+#: post-types/slider/tax-custom-fields.php:90
+#: post-types/slider/tax-custom-fields.php:132
+#: post-types/slider/tax-custom-fields.php:143
+#: post-types/slider/tax-custom-fields.php:154
+#: post-types/testimonials/shortcodes/testimonials.php:99
+#: post-types/testimonials/shortcodes/testimonials.php:111
+#: post-types/testimonials/shortcodes/testimonials.php:123
+msgid "No"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:81
+msgid "Portfolio"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:82
+msgid "Portfolio Item"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:83
+msgid "New Portfolio Item"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:84
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:85
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:103
+#: post-types/portfolio/portfolio-register.php:113
+msgid "Portfolio Categories"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:104
+msgid "Portfolio Category"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:105
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:106
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:107
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:108
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:109
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:110
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:111
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:112
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:130
+#: post-types/portfolio/portfolio-register.php:140
+msgid "Portfolio Tags"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:131
+msgid "Portfolio Tag"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:132
+msgid "Search Portfolio Tags"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:133
+msgid "All Portfolio Tags"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:134
+msgid "Parent Portfolio Tag"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:135
+msgid "Parent Portfolio Tags:"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:136
+msgid "Edit Portfolio Tag"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:137
+msgid "Update Portfolio Tag"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:138
+msgid "Add New Portfolio Tag"
+msgstr ""
+
+#: post-types/portfolio/portfolio-register.php:139
+msgid "New Portfolio Tag Name"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:57
+msgid "Select Portfolio List"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:65
+msgid "Portfolio List Template"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:68
+#: post-types/portfolio/shortcodes/portfolio-slider.php:64
+msgid "Standard"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:69
+#: post-types/portfolio/shortcodes/portfolio-slider.php:65
+msgid "Gallery"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:70
+msgid "Gallery With Space"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:71
+msgid "Masonry"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:72
+msgid "Pinterest"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:73
+msgid "Parallax Rows"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:74
+msgid "Parallax Expanded"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:81
+#: post-types/portfolio/shortcodes/portfolio-slider.php:156
+msgid "Title Tag"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:85
+#: post-types/portfolio/shortcodes/portfolio-slider.php:160
+msgid "h2"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:86
+#: post-types/portfolio/shortcodes/portfolio-slider.php:161
+msgid "h3"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:87
+#: post-types/portfolio/shortcodes/portfolio-slider.php:162
+msgid "h4"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:88
+#: post-types/portfolio/shortcodes/portfolio-slider.php:163
+msgid "h5"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:89
+#: post-types/portfolio/shortcodes/portfolio-slider.php:164
+msgid "h6"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:96
+msgid "Image Proportions"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:99
+msgid "Original"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:100
+#: post-types/portfolio/shortcodes/portfolio-slider.php:79
+msgid "Square"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:101
+#: post-types/portfolio/shortcodes/portfolio-slider.php:80
+msgid "Landscape"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:102
+#: post-types/portfolio/shortcodes/portfolio-slider.php:81
+msgid "Portrait"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:111
+msgid "Loading Animation"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:114
+#: post-types/portfolio/shortcodes/portfolio-list.php:220
+#: post-types/portfolio/shortcodes/portfolio-slider.php:77
+msgid "Default"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:115
+msgid "From Bottom"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:116
+#: post-types/slider/tax-custom-fields.php:105
+msgid "Fade"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:117
+msgid "Scale"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:118
+msgid "Flip In"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:127
+msgid "Show Load More"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:135
+msgid "Default value is Yes"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:139
+msgid "Overlay Color"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:146
+msgid "Excerpt Length"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:150
+#: post-types/portfolio/shortcodes/portfolio-list.php:165
+#: post-types/portfolio/shortcodes/portfolio-list.php:178
+#: post-types/portfolio/shortcodes/portfolio-list.php:186
+#: post-types/portfolio/shortcodes/portfolio-list.php:195
+#: post-types/portfolio/shortcodes/portfolio-list.php:213
+#: post-types/portfolio/shortcodes/portfolio-list.php:228
+#: post-types/portfolio/shortcodes/portfolio-list.php:241
+#: post-types/portfolio/shortcodes/portfolio-list.php:255
+#: post-types/portfolio/shortcodes/portfolio-list.php:272
+msgid "Query and Layout Options"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:158
+#: post-types/portfolio/shortcodes/portfolio-slider.php:92
+msgid "Menu Order"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:182
+msgid "One-Category Portfolio List"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:185
+msgid "Enter one category slug (leave empty for showing all categories)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:190
+msgid "Number of Portfolios Per Page"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:194
+msgid "(enter -1 to show all)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:199
+msgid "Number of Columns"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:203
+msgid "One"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:204
+msgid "Two"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:205
+msgid "Three"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:206
+msgid "Four"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:207
+msgid "Five"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:208
+msgid "Six"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:211
+msgid "Default value is Three"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:217
+msgid "Grid Size"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:221
+msgid "3 Columns Grid"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:222
+msgid "4 Columns Grid"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:223
+msgid "5 Columns Grid"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:226
+msgid "This option is only for Full Width Page Template"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:232
+#: post-types/portfolio/shortcodes/portfolio-slider.php:142
+msgid "Show Only Projects with Listed IDs"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:240
+#: post-types/portfolio/shortcodes/portfolio-slider.php:150
+msgid "Input portfolio ID or portfolio title to see suggestions"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:246
+msgid "Enable Category Filter"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:254
+msgid "Default value is No"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:260
+msgid "Filter Order By"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:263
+#: post-types/slider/tax-custom-fields.php:185
+msgid "Name"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:264
+msgid "Count"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:265
+#: post-types/portfolio/shortcodes/portfolio-list.php:838
+#: post-types/portfolio/shortcodes/portfolio-list.php:870
+#: post-types/portfolio/shortcodes/portfolio-slider.php:224
+#: post-types/portfolio/shortcodes/portfolio-slider.php:256
+msgid "Id"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:266
+#: post-types/slider/tax-custom-fields.php:187
+msgid "Slug"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:270
+msgid "Default value is Name"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-list.php:904
+#: post-types/portfolio/shortcodes/portfolio-list.php:933
+#: post-types/portfolio/shortcodes/portfolio-slider.php:135
+#: post-types/portfolio/shortcodes/portfolio-slider.php:290
+#: post-types/portfolio/shortcodes/portfolio-slider.php:319
+#: post-types/testimonials/shortcodes/testimonials.php:80
+#: post-types/testimonials/shortcodes/testimonials.php:268
+#: post-types/testimonials/shortcodes/testimonials.php:297
+msgid "Category"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider.php:53
+msgid "Select Portfolio Slider"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider.php:61
+msgid "Portfolio Slider Template"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider.php:74
+msgid "Image size"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider.php:78
+msgid "Original Size"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider.php:113
+#: post-types/testimonials/shortcodes/testimonials.php:87
+msgid "Number"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider.php:117
+msgid "Number of portolios on page (-1 is all)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider.php:121
+msgid "Number of Portfolios Shown"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider.php:131
+msgid "Number of portfolios that are showing at the same time in full width (on smaller screens is responsive so there will be less items shown)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/portfolio-slider.php:138
+#: post-types/testimonials/shortcodes/testimonials.php:82
+msgid "Category Slug (leave empty for all)"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/templates/load-more-template.php:7
+msgid "Show More"
+msgstr ""
+
+#: post-types/portfolio/shortcodes/templates/portfolio-filter.php:8
+#: post-types/portfolio/shortcodes/templates/portfolio-filter.php:10
+msgid "All"
+msgstr ""
+
+#: post-types/slider/shortcodes/slider.php:761
+msgid "Sorry, no slides matched your criteria."
+msgstr ""
+
+#: post-types/slider/slider-register.php:53
+#: post-types/slider/slider-register.php:54
+msgid "Select Slider"
+msgstr ""
+
+#: post-types/slider/slider-register.php:55
+msgid "Slides"
+msgstr ""
+
+#: post-types/slider/slider-register.php:56
+#: post-types/slider/slider-register.php:59
+msgid "Add New Slide"
+msgstr ""
+
+#: post-types/slider/slider-register.php:57
+msgid "Slide"
+msgstr ""
+
+#: post-types/slider/slider-register.php:58
+msgid "New Slide"
+msgstr ""
+
+#: post-types/slider/slider-register.php:60
+msgid "Edit Slide"
+msgstr ""
+
+#: post-types/slider/slider-register.php:80
+#: post-types/slider/slider-register.php:90
+msgid "Sliders"
+msgstr ""
+
+#: post-types/slider/slider-register.php:81
+msgid "Slider"
+msgstr ""
+
+#: post-types/slider/slider-register.php:82
+msgid "Search Sliders"
+msgstr ""
+
+#: post-types/slider/slider-register.php:83
+msgid "All Sliders"
+msgstr ""
+
+#: post-types/slider/slider-register.php:84
+msgid "Parent Slider"
+msgstr ""
+
+#: post-types/slider/slider-register.php:85
+msgid "Parent Slider:"
+msgstr ""
+
+#: post-types/slider/slider-register.php:86
+msgid "Edit Slider"
+msgstr ""
+
+#: post-types/slider/slider-register.php:87
+msgid "Update Slider"
+msgstr ""
+
+#: post-types/slider/slider-register.php:88
+msgid "Add New Slider"
+msgstr ""
+
+#: post-types/slider/slider-register.php:89
+msgid "New Slider Name"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:10
+msgid "Slider shortcode"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:14
+msgid "Use this shortcode to insert it on page"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:19
+msgid "Anchor"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:27
+msgid "Effect on header (dark/light style)"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:38
+msgid "Show prev/next thumbs (except for side menu or passepartout)"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:50
+msgid "Show navigation thumbs"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:62
+msgid "Show slide number"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:74
+msgid "Parallax effect"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:85
+msgid "Auto start"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:96
+msgid "Slides Animation"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:100
+msgid "Slide Horizontally"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:101
+msgid "Slide Vertically - Up"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:102
+msgid "Slide Vertically - Down"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:103
+msgid "Slide - Cover Previous Slide"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:104
+msgid "Slide - Peek Into Next Slide"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:111
+msgid "Time between slide transitions in milliseconds"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:119
+msgid "Slider height in px"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:127
+msgid "Responsive height"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:138
+msgid "Show Navigation Arrows"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:149
+msgid "Show Navigation Bullets"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:186
+msgid "Shortcode"
+msgstr ""
+
+#: post-types/slider/tax-custom-fields.php:188
+msgid "Posts"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials.php:46
+msgid "Select Testimonials"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials.php:55
+msgid "Testimonials Type"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials.php:58
+msgid "Standard Carousel"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials.php:59
+msgid "Cards Carousel"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials.php:60
+msgid "List"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials.php:68
+msgid "Skin"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials.php:71
+msgid "Dark"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials.php:72
+msgid "Light"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials.php:90
+msgid "Number of Testimonials"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials.php:95
+msgid "Show Title"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials.php:107
+msgid "Show Author"
+msgstr ""
+
+#: post-types/testimonials/shortcodes/testimonials.php:119
+msgid "Show Author Job Position"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:54
+msgid "Testimonials"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:55
+msgid "Testimonial"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:56
+msgid "New Testimonial"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:57
+msgid "Add New Testimonial"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:58
+msgid "Edit Testimonial"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:78
+#: post-types/testimonials/testimonials-register.php:88
+msgid "Testimonials Categories"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:79
+msgid "Testimonial Category"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:80
+msgid "Search Testimonials Categories"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:81
+msgid "All Testimonials Categories"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:82
+msgid "Parent Testimonial Category"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:83
+msgid "Parent Testimonial Category:"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:84
+msgid "Edit Testimonials Category"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:85
+msgid "Update Testimonials Category"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:86
+msgid "Add New Testimonials Category"
+msgstr ""
+
+#: post-types/testimonials/testimonials-register.php:87
+msgid "New Testimonials Category Name"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Select Core"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Plugin that adds all post types needed by our theme"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Select Themes"
+msgstr ""
